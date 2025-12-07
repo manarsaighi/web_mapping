@@ -1,29 +1,47 @@
 // -------------------------------------------
+// 0. CSRF helper function
+// -------------------------------------------
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+// -------------------------------------------
 // 1. Initialize the map
 // -------------------------------------------
 var map = L.map('map').setView([53.35, -6.26], 12);
+
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19
 }).addTo(map);
 
-// Layer to hold markers from API (static markers)
-var libraryLayer = L.layerGroup().addTo(map);
-
-// Layer for proximity search results (dynamic markers)
-var proximityLayer = L.layerGroup().addTo(map);
+// -------------------------------------------
+// 2. Layers
+// -------------------------------------------
+var libraryLayer = L.layerGroup().addTo(map);   // Static markers
+var proximityLayer = L.layerGroup().addTo(map); // Dynamic results
+var drawnItems = new L.FeatureGroup();          // For polygons/rectangles
+map.addLayer(drawnItems);
 
 // -------------------------------------------
-// 2. Load ALL libraries once (your existing API)
+// 3. Load all libraries (static markers)
 // -------------------------------------------
 fetch('/api/libraries/')
     .then(response => response.json())
     .then(data => {
-        console.log("All libraries:", data);
-
         data.forEach(lib => {
             if (lib.coordinates) {
                 const [lon, lat] = lib.coordinates;
-
                 L.marker([lat, lon])
                     .addTo(libraryLayer)
                     .bindPopup(
@@ -35,41 +53,50 @@ fetch('/api/libraries/')
     .catch(err => console.error('Error loading libraries:', err));
 
 // -------------------------------------------
-// 3. Dynamic Proximity Search (NEW CODE)
+// 4. Mode toggle logic
 // -------------------------------------------
+let searchMode = "proximity"; // default
 
-// Trigger proximity search every time the map stops moving
-let clickMarker = null; // marker showing clicked point
+document.querySelectorAll('input[name="searchMode"]').forEach(input => {
+    input.addEventListener('change', function() {
+        searchMode = this.value;
+
+        // Clear previous results when switching mode
+        proximityLayer.clearLayers();
+        drawnItems.clearLayers();
+        if (clickMarker) map.removeLayer(clickMarker);
+        if (window.searchCircle) map.removeLayer(window.searchCircle);
+    });
+});
+
+// -------------------------------------------
+// 5. Click-based proximity search
+// -------------------------------------------
+let clickMarker = null;
 
 map.on("click", function(e) {
+    if (searchMode !== "proximity") return; // Only run if proximity mode
+
     const clickedLat = e.latlng.lat;
     const clickedLng = e.latlng.lng;
 
-    console.log("Clicked at:", clickedLat, clickedLng);
-
     // Remove previous click marker
-    if (clickMarker) {
-        map.removeLayer(clickMarker);
-    }
+    if (clickMarker) map.removeLayer(clickMarker);
 
-    // Add new click marker
     clickMarker = L.marker([clickedLat, clickedLng]).addTo(map);
 
-    // Optionally draw radius circle
-    const radius = 3000; // 3km
+    // Optional radius circle
+    const radius = 3000; // 3 km
     if (window.searchCircle) map.removeLayer(window.searchCircle);
-    window.searchCircle = L.circle([clickedLat, clickedLng], { radius: radius })
-        .addTo(map);
+    window.searchCircle = L.circle([clickedLat, clickedLng], { radius: radius }).addTo(map);
 
-    // Do the proximity search from the clicked point
+    // Fetch proximity results from backend
     fetch(`/proximity/?lng=${clickedLng}&lat=${clickedLat}&radius=${radius}`)
         .then(res => res.json())
         .then(data => {
             proximityLayer.clearLayers();
-
             data.results.forEach(lib => {
                 const [lon, lat] = lib.coordinates;
-
                 L.marker([lat, lon], {
                     icon: L.icon({
                         iconUrl: 'https://cdn-icons-png.flaticon.com/512/854/854878.png',
@@ -77,10 +104,56 @@ map.on("click", function(e) {
                     })
                 })
                 .addTo(proximityLayer)
-                .bindPopup(
-                    `<b>${lib.name}</b><br>${Math.round(lib.distance)} m away`
-                );
+                .bindPopup(`<b>${lib.name}</b><br>${Math.round(lib.distance)} m away`);
             });
         });
 });
 
+// -------------------------------------------
+// 6. Polygon / Rectangle Spatial Search
+// -------------------------------------------
+var drawControl = new L.Control.Draw({
+    draw: {
+        polygon: true,
+        rectangle: true,
+        polyline: false,
+        circle: false,
+        marker: false,
+        circlemarker: false
+    },
+    edit: {
+        featureGroup: drawnItems
+    }
+});
+map.addControl(drawControl);
+
+map.on(L.Draw.Event.CREATED, function(e) {
+    if (searchMode !== "polygon") return; // Only run if polygon mode
+
+    var layer = e.layer;
+    drawnItems.addLayer(layer);
+
+    var polygonGeoJSON = layer.toGeoJSON();
+
+    fetch('/polygon-search/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': getCookie('csrftoken')
+        },
+        body: JSON.stringify(polygonGeoJSON)
+    })
+    .then(res => res.json())
+    .then(data => {
+        // Clear previous dynamic markers
+        proximityLayer.clearLayers();
+
+        // Add results as GeoJSON markers
+        L.geoJSON(data, {
+            pointToLayer: function(feature, latlng) {
+                return L.marker(latlng).bindPopup(`<b>${feature.properties.name}</b>`);
+            }
+        }).addTo(proximityLayer);
+    })
+    .catch(err => console.error(err));
+});
