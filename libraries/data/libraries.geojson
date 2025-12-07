@@ -1,0 +1,2349 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-12-06T23:09:27Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/18694340",
+        "access": "permissive",
+        "addr:postcode": "D24 A3EX",
+        "addr:street": "Library Square",
+        "amenity": "library",
+        "building": "yes",
+        "building:levels": "5;2;1;3",
+        "check_date": "2025-02-04",
+        "email": "talib@sdublincoco.ie",
+        "landuse": "library",
+        "name": "County Library, Tallaght",
+        "opening_hours": "Mo-Th 09:45-20:00, Fr-Sa 09:45-16:30",
+        "operator": "South Dublin County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q7567084",
+        "operator:wikipedia": "en:South Dublin County Council",
+        "phone": "+353-1-4620073",
+        "source": "Bing",
+        "type": "multipolygon",
+        "website": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3734265,
+          53.2883916
+        ]
+      },
+      "id": "relation/18694340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23582496",
+        "addr:city": "Dublin",
+        "addr:housenumber": "138",
+        "addr:street": "Pearse Street",
+        "alt_name": "Pearse Street Library",
+        "amenity": "library",
+        "building": "library",
+        "building:colour": "beige",
+        "building:material": "stone",
+        "name": "Dublin City Library and Archive",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "short_name": "DCLA",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.245313,
+          53.3430896
+        ]
+      },
+      "id": "way/23582496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23652878",
+        "addr:housename": "University College Dublin",
+        "amenity": "library",
+        "building": "university",
+        "email": "library@ucd.ie",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "layer": "1",
+        "name": "James Joyce Library",
+        "name:ga": "Leabharlann James Joyce",
+        "opening_hours": "Mo 09:00-17:30; Tu-Fr 08:30-23:00; Sa 09:00-17:30; Su 09:00-21:00",
+        "phone": "+353 (0)1 716 7583",
+        "website": "https://www.ucd.ie/library/",
+        "wikidata": "Q7894620",
+        "wikipedia": "en:University College Dublin Library",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2231464,
+          53.306535
+        ]
+      },
+      "id": "way/23652878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27474191",
+        "addr:housename": "The Civic Centre,",
+        "addr:postcode": "D15 RY73",
+        "addr:street": "Blanchardstown Centre",
+        "amenity": "library",
+        "email": "blanchref@fingalcoco.ie",
+        "name": "Blanchardstown Library",
+        "opening_hours": "Mo-Th 09:45-21:00; Fr,Sa 09:45-17:00",
+        "operator": "Fingal County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q5450180",
+        "operator:wikipedia": "en:Fingal County Council",
+        "phone": "+353-1-8905563",
+        "website": "https://www.fingal.ie/fingallibraries",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3911037,
+          53.3908986
+        ]
+      },
+      "id": "node/27474191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/36948987",
+        "amenity": "library",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "1937 Reading Room",
+        "name:ga": "Seomra Léitheoireachta 1937",
+        "opening_hours": "Mo-Su 00:00-12:00+",
+        "operator": "Trinity College Library",
+        "start_date": "1937",
+        "wheelchair": "limited",
+        "wikidata": "Q105798641",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2576694,
+          53.3438447
+        ]
+      },
+      "id": "way/36948987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38751401",
+        "addr:postcode": "D07 AYW1",
+        "addr:street": "Navan Road",
+        "amenity": "library",
+        "building": "library",
+        "name": "Cabra Library",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2996998,
+          53.3616274
+        ]
+      },
+      "id": "way/38751401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/43148943",
+        "alt_name": "Glucksman Map Library",
+        "amenity": "library",
+        "building": "yes",
+        "check_date": "2025-01-28",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Eavan Boland Library",
+        "name:etymology:wikidata": "Q5331464",
+        "name:ga": "Leabharlann Eavan Boland",
+        "operator": "The Library of Trinity College Dublin",
+        "operator:type": "university",
+        "start_date": "1967",
+        "wheelchair": "yes",
+        "wikidata": "Q66485292",
+        "wikimedia_commons": "Category:Berkeley Library, Dublin",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2559878,
+          53.3434918
+        ]
+      },
+      "id": "way/43148943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44075406",
+        "amenity": "library",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Old Library",
+        "name:ga": "Sean-Leabharlann",
+        "opening_hours": "Mo-Sa 09:30-17:00; Su 12:00-16:30",
+        "operator": "Trinity College Library",
+        "phone": "+353 896 2320",
+        "start_date": "1732",
+        "website": "https://www.tcd.ie/Library/bookofkells/",
+        "wheelchair": "yes",
+        "wikipedia": "en:Trinity College Library",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.256813,
+          53.3439229
+        ]
+      },
+      "id": "way/44075406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44116672",
+        "addr:city": "Dublin",
+        "addr:street": "Rathmines Road Lower",
+        "amenity": "library",
+        "building": "public",
+        "name": "Rathmines Library",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries/find-library/rathmines-library",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2656349,
+          53.3242266
+        ]
+      },
+      "id": "way/44116672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47361122",
+        "alt_name": "Coolock Library",
+        "amenity": "library",
+        "building": "yes",
+        "check_date": "2025-05-11",
+        "name": "Coolock Public Library",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2120529,
+          53.3963194
+        ]
+      },
+      "id": "way/47361122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/50007819",
+        "addr:postcode": "A42 Y437",
+        "addr:street": "Main Street",
+        "amenity": "library",
+        "building": "public",
+        "email": "garristownlibrary@fingal.ie",
+        "name": "Garristown Public Library",
+        "operator": "Fingal County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q5450180",
+        "operator:wikipedia": "en:Fingal County Council",
+        "phone": "+353-1-8355020",
+        "website": "https://www.fingal.ie/fingallibraries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.383154,
+          53.5665025
+        ]
+      },
+      "id": "way/50007819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/58217608",
+        "amenity": "library",
+        "building": "university",
+        "name": "John and Aileen O'Reilly Library",
+        "name:en": "John and Aileen O'Reilly Library",
+        "name:ga": "Leabharlann John agus Aileen O'Reilly",
+        "ref": "Y",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.254576,
+          53.3842029
+        ]
+      },
+      "id": "way/58217608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/74330090",
+        "addr:city": "Dublin",
+        "addr:housenumber": "18",
+        "addr:postcode": "D08EY79",
+        "addr:street": "Kevin Street Lower",
+        "alt_name": "Kevin Street Library",
+        "amenity": "library",
+        "building": "library",
+        "email": "kevinstreetlibrary@dublincity.ie",
+        "name": "Dublin City Public Libraries - Kevin Street Branch",
+        "opening_hours": "Mo,We,Fr 13:00-20:00; Tu,Th 10:00-17:00",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "phone": "+353-1-2228488",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.dublincity.ie/libraries/find-library/kevin-street-library",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2675934,
+          53.3374247
+        ]
+      },
+      "id": "way/74330090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/83387661",
+        "addr:street": "Kill Lane",
+        "amenity": "library",
+        "building": "yes",
+        "check_date": "2022-12-31",
+        "name": "Deansgrange Library",
+        "opening_hours": "Mo,Fr-Sa 10:00-13:00,14:00-17:00; Tu-Th 10:00-20:00; Su off",
+        "operator": "Dún Laoghaire-Rathdown County Council",
+        "operator:en": "Dún Laoghaire-Rathdown County Council",
+        "operator:ga": "Comhairle Contae Dhún Laoghaire–Ráth an Dúin",
+        "operator:type": "government",
+        "operator:wikidata": "Q5320425",
+        "operator:wikipedia": "en:Dún Laoghaire–Rathdown County Council",
+        "phone": "+353-1-2850860",
+        "website": "https://libraries.dlrcoco.ie/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.164656,
+          53.2775409
+        ]
+      },
+      "id": "way/83387661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/85397312",
+        "addr:city": "Dundrum",
+        "addr:street": "Churchtown Road Upper",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Dundrum Library",
+        "opening_hours": "Mo-Th 09:30-20:00; Fr,Sa 09:30-17:00; Su,PH off",
+        "operator": "Dún Laoghaire-Rathdown County Council",
+        "operator:en": "Dún Laoghaire-Rathdown County Council",
+        "operator:ga": "Comhairle Contae Dhún Laoghaire–Ráth an Dúin",
+        "operator:type": "government",
+        "operator:wikidata": "Q5320425",
+        "operator:wikipedia": "en:Dún Laoghaire–Rathdown County Council",
+        "website": "https://libraries.dlrcoco.ie/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2468498,
+          53.2926525
+        ]
+      },
+      "id": "way/85397312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104848828",
+        "addr:city": "Dublin",
+        "addr:postcode": "D04 Y970",
+        "addr:street": "Fitzwilliam Street",
+        "alt_name": "Ringsend Library",
+        "amenity": "library",
+        "building": "public",
+        "building:levels": "1",
+        "check_date": "2025-07-05",
+        "email": "ringsendlibrary@dublincity.ie",
+        "name": "Ringsend Public Library",
+        "name:en": "Ringsend Public Library",
+        "name:ga": "Leabharlann Puiblidhe",
+        "opening_hours:covid19": "off",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "phone": "+353-1-2228499",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "wheelchair": "yes",
+        "year_of_construction": "1937-10-22",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2264376,
+          53.3415171
+        ]
+      },
+      "id": "way/104848828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125499838",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Royal Dublin Society Library",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2294834,
+          53.3279664
+        ]
+      },
+      "id": "way/125499838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/127544002",
+        "addr:city": "Dalkey",
+        "addr:county": "Dublin",
+        "addr:housenumber": "41",
+        "addr:postcode": "A96 AK28",
+        "addr:street": "Castle Street",
+        "amenity": "library",
+        "building": "yes",
+        "building:levels": "2",
+        "email": "dalkeylib@dlrcoco.ie",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dalkey Library",
+        "opening_hours": "Mo 10:00-13:00,14:00-17:00; Tu 13:15-20:00; We 10:00-13:00,14:00-17:00; Th 13:15-20:00; Fr-Sa 10:00-13:00,14:00-17:00; Su off",
+        "operator": "Dún Laoghaire-Rathdown County Council",
+        "operator:en": "Dún Laoghaire-Rathdown County Council",
+        "operator:ga": "Comhairle Contae Dhún Laoghaire–Ráth an Dúin",
+        "operator:type": "government",
+        "operator:wikidata": "Q5320425",
+        "operator:wikipedia": "en:Dún Laoghaire–Rathdown County Council",
+        "phone": "+353-1-285-5317",
+        "toilets": "yes",
+        "website": "https://libraries.dlrcoco.ie/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1045718,
+          53.2773151
+        ]
+      },
+      "id": "way/127544002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/129381947",
+        "addr:street": "Royal Canal Bank",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Phibsborough Library",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "wikidata": "Q66484148",
+        "wikimedia_commons": "Category:Phibsborough Library",
+        "wikipedia": "en:Phibsborough Public Library",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2710374,
+          53.3611423
+        ]
+      },
+      "id": "way/129381947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/132297261",
+        "addr:city": "Dublin",
+        "addr:housename": "Drumcondra Library",
+        "addr:postcode": "D09 PT78",
+        "addr:street": "Millmount Avenue",
+        "alt_name": "Drumcondra Library",
+        "amenity": "library",
+        "building": "yes",
+        "check_date": "2025-08-10",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Drumcondra Public Library",
+        "opening_hours": "Mo,We,Fr,Sa 10:00-13:00,14:00-17:00; Tu,Th 12:45-16:00,16:45-20:00; Su,PH closed",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "phone": "+353-1-8377206",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2589951,
+          53.3698842
+        ]
+      },
+      "id": "way/132297261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150804270",
+        "addr:street": "Anglesea Road",
+        "amenity": "library",
+        "building": "yes",
+        "check_date": "2025-04-12",
+        "name": "Pembroke Library",
+        "name:en": "Pembroke Library",
+        "opening_hours": "Mo,Tu 13:00-20:00; We,Th 10:00-17:00; Fr,Sa 10:00-13:00, 13:45-17:00",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "phone": "+353-1-6689575",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2304954,
+          53.3281256
+        ]
+      },
+      "id": "way/150804270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/152977478",
+        "addr:city": "Shankill",
+        "addr:street": "Library Road",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Shankill Library",
+        "operator": "Dún Laoghaire-Rathdown County Council",
+        "operator:en": "Dún Laoghaire-Rathdown County Council",
+        "operator:ga": "Comhairle Contae Dhún Laoghaire–Ráth an Dúin",
+        "operator:type": "government",
+        "operator:wikidata": "Q5320425",
+        "operator:wikipedia": "en:Dún Laoghaire–Rathdown County Council",
+        "website": "https://libraries.dlrcoco.ie/",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1270127,
+          53.2335384
+        ]
+      },
+      "id": "way/152977478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/175440898",
+        "access": "permissive",
+        "addr:postcode": "D22 XP03",
+        "addr:street": "Monastery Road",
+        "alt_name": "South Dublin Library",
+        "amenity": "library",
+        "building": "library",
+        "building:levels": "2",
+        "email": "clondalkin@sdublincoco.ie",
+        "fax": "+353-1-4595509",
+        "name": "Clondalkin Carnegie Library",
+        "opening_hours": "Mo-Th 09:45-20:00, Fr-Sa 09:45-16:30",
+        "operator": "South Dublin County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q7567084",
+        "operator:wikipedia": "en:South Dublin County Council",
+        "phone": "+353-1-4593315",
+        "website": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3885023,
+          53.3206993
+        ]
+      },
+      "id": "way/175440898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/212416993",
+        "addr:street": "Braemor Park",
+        "alt_name": "RCB Library",
+        "amenity": "library",
+        "building": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "The Representative Church Body Library",
+        "operator": "Representative Church Body",
+        "operator:type": "religious",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2670033,
+          53.3034181
+        ]
+      },
+      "id": "way/212416993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228729042",
+        "addr:street": "Parnell Road",
+        "alt_name": "Dolphins Barn Library",
+        "amenity": "library",
+        "building": "yes",
+        "building:colour": "red",
+        "building:levels": "1",
+        "building:material": "brick",
+        "name": "Dolphins Barn Public Library",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2919056,
+          53.3313865
+        ]
+      },
+      "id": "way/228729042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/229442467",
+        "addr:postcode": "D13 VY50",
+        "addr:street": "Main Street",
+        "alt_name:ga": "Leabharlann Puibhlídhe",
+        "amenity": "library",
+        "building": "public",
+        "building:levels": "1",
+        "email": "HowthLibrary.Library@fingal.ie",
+        "fax": "+353-1-8322277",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Howth Public Library",
+        "name:en": "Howth Public Library",
+        "name:ga": "Leabharlann Phoiblí Bhinn Éadair",
+        "opening_hours": "Mo 13:15-20:00; Tu 09:45-13:00,13:45-17:00; We 13:15-20:00; Th-Sa 09:45-13:00,13:45-17:00; Su,PH off",
+        "operator": "Fingal County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q5450180",
+        "operator:wikipedia": "en:Fingal County Council",
+        "phone": "+353-1-8905026",
+        "website": "https://www.fingal.ie/fingallibraries",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0647136,
+          53.3855478
+        ]
+      },
+      "id": "way/229442467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/229658261",
+        "addr:city": "Dublin",
+        "addr:street": "St. Patrick's Close",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Marsh's Library",
+        "name:fa": "کتابخانه مارش",
+        "opening_hours": "Mo 09:30-13:00, 14:00-17:00; We-Fr 09:30-13:00, 14:00-17:00; Sa 10:00-17:00",
+        "tourism": "attraction",
+        "website": "https://www.marshlibrary.ie/",
+        "wikidata": "Q1238147",
+        "wikimedia_commons": "Category:Marsh's Library",
+        "wikipedia": "en:Marsh's Library",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.270409,
+          53.3392017
+        ]
+      },
+      "id": "way/229658261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231082840",
+        "addr:housenumber": "7/8",
+        "addr:postcode": "D02 P638",
+        "addr:street": "Kildare Street",
+        "alt_name": "NLI Dublin",
+        "amenity": "library",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/NationalLibraryofIreland/",
+        "contact:flickr": "https://www.flickr.com/photos/nlireland/",
+        "contact:instagram": "https://www.instagram.com/nationallibraryofireland/",
+        "name": "National Library of Ireland",
+        "name:br": "Levraoueg Broadel Iwerzhon",
+        "name:ko": "아일랜드 국립도서관",
+        "opening_hours": "Mo-We 09:30-19:45; Th-Fr 09:30-16:45; Sa 09:30-12:45",
+        "source": "Bing",
+        "tourism": "attraction",
+        "website": "https://www.nli.ie/",
+        "wheelchair": "yes",
+        "wikidata": "Q1672830",
+        "wikimedia_commons": "Category:National Library of Ireland",
+        "wikipedia": "en:National Library of Ireland",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2545067,
+          53.3411252
+        ]
+      },
+      "id": "way/231082840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233066646",
+        "addr:city": "Dublin",
+        "addr:country": "US",
+        "addr:housenumber": "200",
+        "addr:postcode": "94568",
+        "addr:street": "Civic Plaza",
+        "amenity": "library",
+        "building": "yes",
+        "contact:phone": "+1 925 803-7252",
+        "contact:website": "http://www.aclibrary.org/dublin",
+        "name": "Alameda County Library Dublin",
+        "opening_hours": "Mo-Th 10:00-20:00; Sa 10:00-17:00; Su 13:00-17:00",
+        "wikidata": "Q66166774",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9189624,
+          37.7028689
+        ]
+      },
+      "id": "way/233066646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/233104282",
+        "addr:city": "Dublin",
+        "addr:housenumber": "74",
+        "addr:street": "Merrion Square South",
+        "amenity": "library",
+        "building": "house",
+        "building:levels": "4",
+        "denomination": "roman_catholic",
+        "name": "Central Catholic Library",
+        "note": "Dublin City Council, Record of Protected Structures (2010), no. 5172",
+        "opening_hours:signed": "no",
+        "phone": "+353 (0)1 676 1264",
+        "religion": "christian",
+        "website": "https://www.catholiclibrary.ie/",
+        "wikidata": "Q618650",
+        "wikipedia": "en:Central Catholic Library",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2504719,
+          53.3389939
+        ]
+      },
+      "id": "way/233104282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/250946063",
+        "addr:city": "Dublin",
+        "amenity": "library",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "James Ussher Library",
+        "name:ga": "Leabharlann James Ussher",
+        "operator": "Trinity College Library",
+        "start_date": "2002",
+        "wikidata": "Q101140963",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2559948,
+          53.3429565
+        ]
+      },
+      "id": "way/250946063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/252387585",
+        "addr:city": "Dublin",
+        "addr:postcode": "D12FK18",
+        "addr:street": "Percy French Road",
+        "alt_name": "Walkinstown Library",
+        "amenity": "library",
+        "building": "library",
+        "contact:facebook": "https://www.facebook.com/Walkinstownlibrary",
+        "email": "walkinstownlibrary@dublincity.ie",
+        "name": "Walkinstown Branch Library",
+        "note": "Check opening_hours",
+        "opening_hours": "Mo, We 13:00 – 20:00; Tu, Th 10:00 – 17:00",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "phone": "+353-1-2228890",
+        "polling_station": "yes",
+        "toilets": "yes",
+        "website": "https://www.dublincity.ie/libraries/find-library/walkinstown-library",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3218108,
+          53.3186926
+        ]
+      },
+      "id": "way/252387585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/257980183",
+        "addr:city": "Dublin",
+        "addr:housenumber": "1114",
+        "addr:state": "NH",
+        "addr:street": "Main Street",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Dublin Public Library",
+        "operator:type": "public",
+        "website": "https://www.dplnh.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0614111,
+          42.9056747
+        ]
+      },
+      "id": "way/257980183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/279547945",
+        "addr:city": "Dublin",
+        "addr:street": "Ballymun Road",
+        "amenity": "library",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2024-12-11",
+        "name": "Ballymun Library",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2650556,
+          53.3904505
+        ]
+      },
+      "id": "way/279547945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/284449952",
+        "amenity": "library",
+        "building:part": "yes",
+        "name": "Lecky Library",
+        "name:ga": "Leabharlann Lecky",
+        "operator": "Trinity College Library",
+        "start_date": "1978",
+        "wikidata": "Q101138089",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2566426,
+          53.3432871
+        ]
+      },
+      "id": "way/284449952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/313838455",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Raheny Library",
+        "opening_hours": "Mo-Th 08:00-20:00, Fr-Sa 10:00-17:00",
+        "operator": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "council",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries/find-library/raheny-library",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1731401,
+          53.380037
+        ]
+      },
+      "id": "way/313838455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/316377242",
+        "addr:city": "Dublin",
+        "amenity": "library",
+        "architect": "O'Donnell + Tuomey",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/NationalLibraryofIreland/",
+        "contact:instagram": "https://www.instagram.com/nationallibraryofireland/",
+        "name": "National Photographic Archive",
+        "opening_hours": "Mo-Su 10:00-16:00",
+        "website": "https://www.nli.ie/collections/our-collections/photographs/",
+        "wheelchair": "yes",
+        "wikidata": "Q15261141",
+        "wikipedia": "en:National Photographic Archive",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2653115,
+          53.3452111
+        ]
+      },
+      "id": "way/316377242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/318100769",
+        "addr:city": "Dún Laoghaire",
+        "addr:housename": "dlr LexIcon",
+        "addr:postcode": "A96 H283",
+        "addr:street": "Haigh Terrace",
+        "alt_name": "Dún Laoghaire Public Library",
+        "amenity": "library",
+        "building": "yes",
+        "building:levels": "5",
+        "check_date": "2025-08-21",
+        "drinking_water:refill": "yes",
+        "drinking_water:refill:network": "Refill Ireland",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "4",
+        "name": "dlr LexIcon",
+        "name:en": "dlr LexIcon",
+        "opening_hours": "Mo-Th 09:30-20:00; Fr-Sa 09:30-17:00; Su off",
+        "operator": "Dún Laoghaire-Rathdown County Council",
+        "operator:en": "Dún Laoghaire-Rathdown County Council",
+        "operator:ga": "Comhairle Contae Dhún Laoghaire–Ráth an Dúin",
+        "operator:type": "government",
+        "operator:wikidata": "Q5320425",
+        "operator:wikipedia": "en:Dún Laoghaire–Rathdown County Council",
+        "phone": "+353-1-280-1147",
+        "website": "https://libraries.dlrcoco.ie/",
+        "wheelchair": "yes",
+        "wikidata": "Q18646116",
+        "wikimedia_commons": "Category:DLR Lexicon",
+        "wikipedia": "en:DLR Lexicon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1317782,
+          53.2929102
+        ]
+      },
+      "id": "way/318100769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/320856653",
+        "access": "permissive",
+        "addr:housenumber": "54",
+        "addr:postcode": "D14 VY33",
+        "addr:street": "Orchardstown Avenue",
+        "amenity": "library",
+        "building": "yes",
+        "building:levels": "4",
+        "email": "ballyroan@sdublincoco.ie",
+        "name": "Ballyroan Library",
+        "opening_hours": "Mo-Th 09:45-20:00, Fr-Sa 09:45-16:30",
+        "operator": "South Dublin County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q7567084",
+        "operator:wikipedia": "en:South Dublin County Council",
+        "phone": "+353 1 4941900",
+        "website": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2992469,
+          53.290651
+        ]
+      },
+      "id": "way/320856653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/320856654",
+        "addr:city": "Lucan",
+        "addr:housename": "Lucan Shopping Centre,",
+        "addr:postcode": "K78 V295",
+        "addr:street": "Adamstown Road",
+        "alt_name": "South Dublin Library",
+        "amenity": "library",
+        "name": "Lucan Library",
+        "operator": "South Dublin County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q7567084",
+        "operator:wikipedia": "en:South Dublin County Council",
+        "website": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.4523155,
+          53.3474815
+        ]
+      },
+      "id": "way/320856654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/320856655",
+        "addr:street": "Taylors Lane",
+        "alt_name": "South Dublin Library",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Whitechurch Library",
+        "operator": "South Dublin County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q7567084",
+        "operator:wikipedia": "en:South Dublin County Council",
+        "website": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2932394,
+          53.281393
+        ]
+      },
+      "id": "way/320856655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/336872662",
+        "addr:city": "Dublin",
+        "addr:street": "Mill Lane",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Palmerstown Library",
+        "operator": "South Dublin County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q7567084",
+        "operator:wikipedia": "en:South Dublin County Council",
+        "website": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.365763,
+          53.3558427
+        ]
+      },
+      "id": "way/336872662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/339091198",
+        "addr:city": "Dublin",
+        "addr:street": "Charleville Mall",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Charleville Mall Library",
+        "opening_hours": "Mo-Sa 10:00-13:00,13:45-17:00",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "wikidata": "Q55049794",
+        "wikimedia_commons": "Category:Charleville Mall Library",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2460693,
+          53.3571601
+        ]
+      },
+      "id": "way/339091198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/351506286",
+        "addr:city": "Dublin",
+        "addr:street": "Templeogue Road",
+        "amenity": "library",
+        "name": "Terenure Library",
+        "opening_hours": "Mo 13:00-20:00, Tu 10:00-17:00, We 13:00-20:00, Th 10:00-17:00, Sa 10:00-17:00",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "phone": "+353-1-4907035",
+        "website": "https://www.dublincity.ie/residential/libraries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2852821,
+          53.3089834
+        ]
+      },
+      "id": "node/351506286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/351612115",
+        "addr:city": "Swords",
+        "addr:housename": "Swords Shopping Centre",
+        "addr:postcode": "K67 YP79",
+        "addr:street": "Rathbeale Road",
+        "amenity": "library",
+        "building": "public",
+        "email": "swordslibrary@fingal.ie",
+        "internet_access": "wlan",
+        "name": "Swords Library",
+        "opening_hours": "Mo-Th 09:45-20:00; Fr,Sa 09:45-13:00,13:45-17:00; Su off",
+        "operator": "Fingal County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q5450180",
+        "operator:wikipedia": "en:Fingal County Council",
+        "phone": "+353 1 8905894",
+        "source": "Swords Library Website",
+        "website": "https://www.fingal.ie/fingallibraries",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2292688,
+          53.4623495
+        ]
+      },
+      "id": "way/351612115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360511275",
+        "amenity": "library",
+        "building": "university",
+        "building:levels": "5",
+        "name": "G Block - Cregan Library",
+        "name:en": "G Block - Cregan Library",
+        "name:ga": "Bloc G - Teabharlan Uí Chriagáin",
+        "operator": "Dublin City University",
+        "ref": "G",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2538124,
+          53.372061
+        ]
+      },
+      "id": "way/360511275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/368898349",
+        "addr:city": "Balbriggan",
+        "addr:postcode": "K32 TW27",
+        "addr:street": "George's Square",
+        "amenity": "library",
+        "building": "library",
+        "email": "balbrigganlibrary@fingal.ie",
+        "name": "Balbriggan Library",
+        "operator": "Fingal County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q5450180",
+        "operator:wikipedia": "en:Fingal County Council",
+        "phone": "+353-1-8704402",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.fingal.ie/fingallibraries",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1821331,
+          53.6084728
+        ]
+      },
+      "id": "way/368898349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/492558900",
+        "amenity": "library",
+        "building": "yes",
+        "fixme": "This building possibly contains other facilities than just the library.",
+        "name": "Ballyogan Library",
+        "operator": "Dún Laoghaire-Rathdown County Council",
+        "operator:en": "Dún Laoghaire-Rathdown County Council",
+        "operator:ga": "Comhairle Contae Dhún Laoghaire–Ráth an Dúin",
+        "operator:type": "government",
+        "operator:wikidata": "Q5320425",
+        "operator:wikipedia": "en:Dún Laoghaire–Rathdown County Council",
+        "website": "https://libraries.dlrcoco.ie/ballyogan-library",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1909064,
+          53.2567219
+        ]
+      },
+      "id": "way/492558900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/584063943",
+        "addr:postcode": "K56 ED95",
+        "amenity": "library",
+        "building": "church",
+        "email": "rushlibrary@fingal.ie",
+        "name": "Rush Library",
+        "old_name": "Saint Maur's Church",
+        "operator": "Fingal County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q5450180",
+        "operator:wikipedia": "en:Fingal County Council",
+        "phone": "+353-1-8708414",
+        "toilets:wheelchair": "yes",
+        "was:religion": "christian",
+        "website": "https://www.fingal.ie/fingallibraries",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1019269,
+          53.5218684
+        ]
+      },
+      "id": "way/584063943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/584064980",
+        "addr:postcode": "D13 Y304",
+        "addr:street": "The Mall",
+        "amenity": "library",
+        "building": "yes",
+        "description": "Library and local area offices for Fingal County Council",
+        "email": "baldoylelibrary@fingal.ie",
+        "name": "Baldoyle Library",
+        "opening_hours": "Mo-Th 09:45-20:00; Fr,Sa 09:45-17:00",
+        "operator": "Fingal County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q5450180",
+        "operator:wikipedia": "en:Fingal County Council",
+        "phone": "+353-1-8906793",
+        "website": "https://www.fingal.ie/fingallibraries",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1257376,
+          53.3968052
+        ]
+      },
+      "id": "way/584064980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/614332273",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Columbus Metropolitan Library - Dublin Branch",
+        "phone": "+1-614-645-2275",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1145642,
+          40.1013683
+        ]
+      },
+      "id": "way/614332273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/634153171",
+        "amenity": "library",
+        "name": "Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3637476,
+          53.2906432
+        ]
+      },
+      "id": "node/634153171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/649641667",
+        "addr:city": "Malahide",
+        "addr:street": "The Mall",
+        "amenity": "library",
+        "building": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Malahide Library",
+        "opening_hours": "Mo-Th 09:45-20:00, Fr-Sa 09:45-13:30, 13:45-17:00",
+        "operator": "Fingal County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q5450180",
+        "operator:wikipedia": "en:Fingal County Council",
+        "website": "https://www.fingal.ie/fingallibraries",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1523708,
+          53.4505705
+        ]
+      },
+      "id": "way/649641667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/662970896",
+        "addr:city": "Blackrock",
+        "addr:street": "Main Street",
+        "amenity": "library",
+        "internet_access": "wlan;terminal",
+        "internet_access:fee": "no",
+        "name": "Blackrock Library",
+        "opening_hours": "Mo 10:00-13:00,14:00-17:00; Tu 13:15-20:00; We 10:00-13:00,14:00-17:00; Th 13:15-20:00; Fr-Sa 10:00-13:00,14:00-17:00; Su off",
+        "operator": "Dún Laoghaire-Rathdown County Council",
+        "operator:en": "Dún Laoghaire-Rathdown County Council",
+        "operator:ga": "Comhairle Contae Dhún Laoghaire–Ráth an Dúin",
+        "operator:type": "government",
+        "operator:wikidata": "Q5320425",
+        "operator:wikipedia": "en:Dún Laoghaire–Rathdown County Council",
+        "phone": "+353-1-2888117",
+        "website": "https://libraries.dlrcoco.ie/",
+        "wheelchair": "yes",
+        "wikipedia": "en:Blackrock, Dublin#Blackrock Town Hall, Library and Technical Institute"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1754274,
+          53.3007756
+        ]
+      },
+      "id": "node/662970896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/823912637",
+        "addr:city": "Cabinteely",
+        "addr:street": "Old Bray Road",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Cabinteely Library",
+        "operator": "Dún Laoghaire-Rathdown County Council",
+        "operator:en": "Dún Laoghaire-Rathdown County Council",
+        "operator:ga": "Comhairle Contae Dhún Laoghaire–Ráth an Dúin",
+        "operator:type": "government",
+        "operator:wikidata": "Q5320425",
+        "operator:wikipedia": "en:Dún Laoghaire–Rathdown County Council",
+        "toilets:wheelchair": "yes",
+        "website": "https://libraries.dlrcoco.ie/",
+        "wheelchair": "yes",
+        "wheelchair:description": "wheelchair accessible toilet and good ramps",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.149556,
+          53.2598356
+        ]
+      },
+      "id": "way/823912637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/877086324",
+        "addr:housename": "Academy House",
+        "addr:housenumber": "19",
+        "addr:street": "Dawson Street",
+        "amenity": "library",
+        "name": "Royal Irish Academy",
+        "phone": "+353-1-6090620",
+        "website": "https://www.ria.ie/library",
+        "wheelchair": "no",
+        "wikidata": "Q110587",
+        "wikimedia_commons": "Category:Royal Irish Academy",
+        "wikipedia": "en:Royal Irish Academy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2582056,
+          53.3407218
+        ]
+      },
+      "id": "node/877086324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/938142251",
+        "addr:street": "Collinstown Road",
+        "amenity": "library",
+        "building": "yes",
+        "name": "North Clondalkin Library",
+        "operator": "South Dublin County Council",
+        "operator:type": "council",
+        "operator:wikidata": "Q7567084",
+        "operator:wikipedia": "en:South Dublin County Council",
+        "website": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3947972,
+          53.3445903
+        ]
+      },
+      "id": "way/938142251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/948241448",
+        "amenity": "library",
+        "name": "TU Dublin Blanchardstown Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3786965,
+          53.4049646
+        ]
+      },
+      "id": "node/948241448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1014450136",
+        "addr:street": "Castletymon Road",
+        "amenity": "library",
+        "building": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Castetymon Library",
+        "operator": "South Dublin County Council",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3427488,
+          53.2940401
+        ]
+      },
+      "id": "way/1014450136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1316674037",
+        "amenity": "library",
+        "indoor": "room",
+        "level": "0;1",
+        "name": "Woodlock Hall",
+        "operator": "Dublin City University",
+        "ref": "SG03",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2492562,
+          53.3717973
+        ]
+      },
+      "id": "way/1316674037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1339596447",
+        "addr:city": "Dublin",
+        "addr:county": "Pulaski County",
+        "addr:housenumber": "300",
+        "addr:state": "VA",
+        "addr:street": "Giles Avenue",
+        "amenity": "library",
+        "building": "yes",
+        "ele": "638",
+        "gnis:feature_id": "1501432",
+        "name": "Charles & Ona B. Free Memorial Library",
+        "opening_hours": "Mo-We 09:00-19:00; Th-Fr 09:00-17:00; Sa 09:00-14:00; Su off",
+        "operator:wikidata": "Q514038",
+        "phone": "+1 540 674 2856",
+        "source": "esri/Virginia_building",
+        "website": "http://pclibs.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6874064,
+          37.1081292
+        ]
+      },
+      "id": "way/1339596447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1340166154",
+        "amenity": "library",
+        "building": "public",
+        "building:levels": "2",
+        "roof:levels": "0",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3911951,
+          53.3907655
+        ]
+      },
+      "id": "way/1340166154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1348068739",
+        "addr:city": "Dublin",
+        "addr:county": "Laurens",
+        "addr:housenumber": "801",
+        "addr:postcode": "31021-4847",
+        "addr:state": "GA",
+        "addr:street": "Bellevue Avenue",
+        "amenity": "library",
+        "building": "yes",
+        "name": "Laurens County Library",
+        "operator:type": "public",
+        "phone": "+1 478-272-5710",
+        "source": "institute of museum and library services",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9163946,
+          32.5380056
+        ]
+      },
+      "id": "way/1348068739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1348068740",
+        "addr:city": "Dublin",
+        "addr:housenumber": "801",
+        "addr:state": "GA",
+        "addr:street": "Bellevue Avenue",
+        "amenity": "library",
+        "building": "yes",
+        "ele": "76",
+        "gnis:feature_id": "346597",
+        "name": "Oconee Regional Library",
+        "operator:type": "public",
+        "source": "USGS Geonames",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9163056,
+          32.5376432
+        ]
+      },
+      "id": "way/1348068740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2047047001",
+        "addr:city": "Dublin",
+        "addr:street": "Fishamble Street",
+        "amenity": "library",
+        "name": "Contemporary Music Centre",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2695967,
+          53.344172
+        ]
+      },
+      "id": "node/2047047001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2059582184",
+        "access": "private",
+        "amenity": "library",
+        "name": "Bolton Street Library",
+        "operator": "Technological University Dublin",
+        "operator:type": "public",
+        "website": "https://tudublin.ie/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2683683,
+          53.3510182
+        ]
+      },
+      "id": "node/2059582184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2891636442",
+        "amenity": "library",
+        "name": "Hamilton Library",
+        "operator": "Trinity College Library",
+        "start_date": "1992",
+        "wikidata": "Q101138724"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2506303,
+          53.3432637
+        ]
+      },
+      "id": "node/2891636442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3191509815",
+        "amenity": "library",
+        "name": "Mercer Library",
+        "operator": "Royal College of Surgeons in Ireland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2637722,
+          53.3407717
+        ]
+      },
+      "id": "node/3191509815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3198770928",
+        "addr:city": "Dublin",
+        "addr:housenumber": "73",
+        "addr:street": "Merrion Square South",
+        "amenity": "library",
+        "name": "Irish Traditional Music Archive",
+        "note": "ITMA is a national public reference archive and resource centre for the traditional song, instrumental music and dance of Ireland. Open 3rd Sat in month, 10:00-17:00",
+        "opening_hours": "Mo-Fr 10:00-17:00; Th 10:00-20:00",
+        "operator": "ITMA",
+        "phone": "+353 1 6619699",
+        "source": "ITMA",
+        "website": "https://www.itma.ie/",
+        "wheelchair": "limited",
+        "wikidata": "Q3154465",
+        "wikimedia_commons": "Category:Irish Traditional Music Archive",
+        "wikipedia": "en:Irish Traditional Music Archive"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2503862,
+          53.3389583
+        ]
+      },
+      "id": "node/3198770928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3528264797",
+        "addr:city": "Dublin",
+        "addr:housename": "National College of Art and Design",
+        "addr:housenumber": "100",
+        "addr:street": "Thomas Street",
+        "amenity": "library",
+        "name": "Edward Murphy Library",
+        "operator": "National College of Art and Design",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2790587,
+          53.3434956
+        ]
+      },
+      "id": "node/3528264797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3528264798",
+        "addr:city": "Dublin",
+        "addr:housename": "National College of Art and Design",
+        "addr:housenumber": "100",
+        "addr:street": "Thomas Street",
+        "amenity": "library",
+        "name": "National Irish Visual Arts Library",
+        "operator": "National College of Art and Design",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.27857,
+          53.3434122
+        ]
+      },
+      "id": "node/3528264798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570903004",
+        "addr:city": "Dublin",
+        "addr:housenumber": "14-20",
+        "addr:postcode": "D03 VW10",
+        "addr:street": "Marino Mart",
+        "amenity": "library",
+        "email": "marinolibrary@dublincity.ie",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Marino Library",
+        "opening_hours": "Mo 12:45-16:00, 16:45-20:00, Tu 10:00-13:00, 14:00-17:00, We 12:45-16:00, 16:45-20:00, Th-Sa 10:00-13:00, 14:00-17:00",
+        "opening_hours:covid19": "off",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "phone": "+353-1-2228399",
+        "start_date": "1937-10-22",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.231164,
+          53.364414
+        ]
+      },
+      "id": "node/3570903004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4119295994",
+        "addr:city": "Dublin",
+        "addr:housename": "Finglas Village Centre",
+        "addr:postcode": "D11 F76T",
+        "addr:street": "Jamestown Road",
+        "amenity": "library",
+        "name": "Finglas Library",
+        "opening_hours": "Mo,We 10:00-20:00; Tu,Th-Sa 10:00-17:00",
+        "operator": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "council",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "phone": "+353 1 8344906",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2979536,
+          53.3891005
+        ]
+      },
+      "id": "node/4119295994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4156437356",
+        "addr:city": "Dublin",
+        "addr:housename": "Donaghmede Shopping Centre",
+        "addr:street": "Grange Road",
+        "amenity": "library",
+        "name": "Donaghmede Library",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1622229,
+          53.3951779
+        ]
+      },
+      "id": "node/4156437356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4156966389",
+        "access": "yes",
+        "alt_name": "Dublin Central Library",
+        "amenity": "library",
+        "name": "Central Library",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr,Sa 10:00-17:00",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "wheelchair": "yes",
+        "wikidata": "Q36805375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2642529,
+          53.3503299
+        ]
+      },
+      "id": "node/4156966389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5894606412",
+        "addr:city": "Dublin",
+        "addr:postcode": "D10WV02",
+        "addr:street": "Ballyfermot Road",
+        "amenity": "library",
+        "check_date": "2024-06-05",
+        "email": "ballyfermotlibrary@dublincity.ie",
+        "internet_access": "yes",
+        "name": "Ballyfermot Library",
+        "opening_hours": "Mo-Th 10:00-20:00, Fr-Sa 10:00-17:00, Su off",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:wikidata": "Q4810766",
+        "operator:wikipedia": "en:Dublin City Council",
+        "phone": "+353-1-6269324",
+        "website": "https://www.dublincity.ie/residential/libraries",
+        "wheelchair": "yes",
+        "wikipedia": "en:Ballyfermot#Social and cultural"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.351719,
+          53.3402017
+        ]
+      },
+      "id": "node/5894606412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7252618055",
+        "amenity": "library",
+        "name": "National Folklore Collection",
+        "name:ga": "Cnuasach Bhéaloideas Éireann",
+        "opening_hours": "Mo-Fr 10:00-13:00, 14:00-17:00",
+        "room": "F001-F015",
+        "website": "https://www.ucd.ie/folklore/en/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.22203,
+          53.3055
+        ]
+      },
+      "id": "node/7252618055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8081672046",
+        "amenity": "library",
+        "name": "John Stearne Medical Library",
+        "operator": "Trinity College, Dublin",
+        "wikidata": "Q101139769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2943412,
+          53.3416369
+        ]
+      },
+      "id": "node/8081672046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9243493823",
+        "addr:city": "Stillorgan",
+        "addr:housename": "Stillorgan Village Shopping Centre",
+        "addr:postcode": "A94 PR90",
+        "addr:street": "Old Dublin Road",
+        "amenity": "library",
+        "check_date": "2025-06-28",
+        "description": "Temporary location for Stillorgan Library while new premises is being built",
+        "email": "stillorganlib@dlrcoco.ie",
+        "internet_access": "wlan",
+        "level": "1",
+        "name": "Stillorgan Library",
+        "name:en": "Stillorgan Library",
+        "opening_hours": "Mo-We 09:30-17:00; Th 09:30-20:00; Fr-Sa 09:30-13:00,14:00-17:00; Su,PH off",
+        "operator": "Dún Laoghaire-Rathdown County Council",
+        "operator:en": "Dún Laoghaire-Rathdown County Council",
+        "operator:ga": "Comhairle Contae Dhún Laoghaire–Ráth an Dúin",
+        "operator:type": "government",
+        "operator:wikidata": "Q5320425",
+        "operator:wikipedia": "en:Dún Laoghaire–Rathdown County Council",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+353-1-2889655",
+        "website": "https://libraries.dlrcoco.ie/stillorgan-library",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2011925,
+          53.2897105
+        ]
+      },
+      "id": "node/9243493823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9961089331",
+        "amenity": "library",
+        "check_date": "2025-10-19",
+        "name": "Trinity College Old Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2566963,
+          53.3439588
+        ]
+      },
+      "id": "node/9961089331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10004443860",
+        "amenity": "library",
+        "check_date": "2025-03-06",
+        "name": "Book Return",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.131885,
+          53.2926578
+        ]
+      },
+      "id": "node/10004443860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10282295930",
+        "addr:city": "Dublin",
+        "amenity": "library",
+        "name": "Palmerstown Library Digital Hub",
+        "website": "https://www.sdcc.ie/en/services/sport-and-recreation/libraries/join-library-login/find-a-library/palmerstown/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3792617,
+          53.3501732
+        ]
+      },
+      "id": "node/10282295930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10902370705",
+        "amenity": "library",
+        "name": "Cornog Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.061911,
+          42.9086259
+        ]
+      },
+      "id": "node/10902370705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11420490784",
+        "addr:city": "Dublin",
+        "addr:housename": "Richmond Barracks",
+        "addr:postcode": "D08YY05",
+        "addr:street": "St. Michael's Estate, Inchicore",
+        "amenity": "library",
+        "contact:facebook": "https://www.facebook.com/InchicoreLibrary/",
+        "email": "inchicorelibrary@dublincity.ie",
+        "name": "Inchicore Library",
+        "note": "Moved from Emmet Road: https://www.openstreetmap.org/way/307343966",
+        "opening_hours": "Mo-Th 10:00-17:00, Fr-Sa 10:00-13:00, 14:00-17:00",
+        "operator": "Dublin City Council",
+        "operator:en": "Dublin City Council",
+        "operator:ga": "Comhairle Cathrach Bhaile Átha Cliath",
+        "operator:type": "government",
+        "operator:website": "https://www.dublincity.ie/",
+        "operator:wikidata": "Q4810766",
+        "phone": "+353-1-2228444",
+        "start_date": "2020",
+        "website": "https://www.dublincity.ie/libraries/find-library/inchicore-library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3161342,
+          53.3383421
+        ]
+      },
+      "id": "node/11420490784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11831416242",
+        "addr:city": "Dublin",
+        "addr:housename": "Park House",
+        "addr:housenumber": "191/193A",
+        "addr:postcode": "D07 EWV4",
+        "addr:street": "North Circular Road",
+        "amenity": "library",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "TU Dublin Library, Grangegorman",
+        "opening_hours": "Mo-Th 09:00-21:00; Fr 09:00-17:00; Sa 09:30-17:00; PH off",
+        "operator": "TU Dublin",
+        "operator:type": "university"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2873908,
+          53.357798
+        ]
+      },
+      "id": "node/11831416242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11904228568",
+        "amenity": "library",
+        "name": "Swords Library",
+        "opening_hours": "Mo-Th 09:45-20:00; Fr,Sa 09:45-13:00,13:45-17:00; Su off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2292341,
+          53.4623445
+        ]
+      },
+      "id": "node/11904228568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12459639666",
+        "addr:city": "Donabate",
+        "addr:housename": "Donabate Portrane Community & Leisure Centre",
+        "addr:street": "Portrane Road",
+        "amenity": "library",
+        "email": "donabate.library@fingal.ie",
+        "name": "Donabate Portrane Library",
+        "operator": "Fingal Libraries",
+        "operator:type": "council",
+        "phone": "+353-1-8905609",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.1431549,
+          53.4896984
+        ]
+      },
+      "id": "node/12459639666"
+    }
+  ]
+}
