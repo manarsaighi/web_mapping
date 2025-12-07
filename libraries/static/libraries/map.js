@@ -39,30 +39,48 @@ fetch('/api/libraries/')
 // -------------------------------------------
 
 // Trigger proximity search every time the map stops moving
-map.on("moveend", function () {
-    const center = map.getCenter();
-    const radius = 3000; // meters (3km)
+let clickMarker = null; // marker showing clicked point
 
-    console.log("Proximity search:", center);
+map.on("click", function(e) {
+    const clickedLat = e.latlng.lat;
+    const clickedLng = e.latlng.lng;
 
-    fetch(`/proximity/?lng=${center.lng}&lat=${center.lat}&radius=${radius}`)
+    console.log("Clicked at:", clickedLat, clickedLng);
+
+    // Remove previous click marker
+    if (clickMarker) {
+        map.removeLayer(clickMarker);
+    }
+
+    // Add new click marker
+    clickMarker = L.marker([clickedLat, clickedLng]).addTo(map);
+
+    // Optionally draw radius circle
+    const radius = 3000; // 3km
+    if (window.searchCircle) map.removeLayer(window.searchCircle);
+    window.searchCircle = L.circle([clickedLat, clickedLng], { radius: radius })
+        .addTo(map);
+
+    // Do the proximity search from the clicked point
+    fetch(`/proximity/?lng=${clickedLng}&lat=${clickedLat}&radius=${radius}`)
         .then(res => res.json())
         .then(data => {
-            console.log("Nearby libraries:", data);
-
-            // Clear previous proximity markers
             proximityLayer.clearLayers();
 
-            // Add new ones
             data.results.forEach(lib => {
                 const [lon, lat] = lib.coordinates;
 
-                L.marker([lat, lon], {icon: L.icon({
-                    iconUrl: 'https://cdn-icons-png.flaticon.com/512/854/854878.png',
-                    iconSize: [28, 28]
-                })})
+                L.marker([lat, lon], {
+                    icon: L.icon({
+                        iconUrl: 'https://cdn-icons-png.flaticon.com/512/854/854878.png',
+                        iconSize: [28, 28]
+                    })
+                })
                 .addTo(proximityLayer)
-                .bindPopup(`<b>${lib.name}</b><br>${Math.round(lib.distance)} m away`);
+                .bindPopup(
+                    `<b>${lib.name}</b><br>${Math.round(lib.distance)} m away`
+                );
             });
         });
 });
+
