@@ -1,6 +1,5 @@
-// -------------------------------------------
-// 0. CSRF helper function
-// -------------------------------------------
+//csrf helper function
+// retrueve cookie
 function getCookie(name) {
     let cookieValue = null;
     if (document.cookie && document.cookie !== '') {
@@ -16,26 +15,22 @@ function getCookie(name) {
     return cookieValue;
 }
 
-// -------------------------------------------
-// 1. Initialize the map
-// -------------------------------------------
+
+// initialise the map
 var map = L.map('map').setView([53.35, -6.26], 12);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19
 }).addTo(map);
 
-// -------------------------------------------
-// 2. Layers
-// -------------------------------------------
+
+// layers
 var libraryLayer = L.layerGroup().addTo(map);   // Static markers
 var proximityLayer = L.layerGroup().addTo(map); // Dynamic results
 var drawnItems = new L.FeatureGroup();          // For polygons/rectangles
 map.addLayer(drawnItems);
 
-// -------------------------------------------
-// 3. Load all libraries (static markers)
-// -------------------------------------------
+// Load all libraries (static markers)
 fetch('/api/libraries/')
     .then(response => response.json())
     .then(data => {
@@ -52,9 +47,7 @@ fetch('/api/libraries/')
     })
     .catch(err => console.error('Error loading libraries:', err));
 
-// -------------------------------------------
 // 4. Mode toggle logic
-// -------------------------------------------
 let searchMode = "proximity"; // default
 
 document.querySelectorAll('input[name="searchMode"]').forEach(input => {
@@ -69,9 +62,8 @@ document.querySelectorAll('input[name="searchMode"]').forEach(input => {
     });
 });
 
-// -------------------------------------------
-// 5. Click-based proximity search
-// -------------------------------------------
+
+// Click-based proximity search
 let clickMarker = null;
 
 map.on("click", function(e) {
@@ -109,9 +101,7 @@ map.on("click", function(e) {
         });
 });
 
-// -------------------------------------------
-// 6. Polygon / Rectangle Spatial Search
-// -------------------------------------------
+// Polygon / Rectangle Spatial Search
 var drawControl = new L.Control.Draw({
     draw: {
         polygon: true,

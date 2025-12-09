@@ -31,7 +31,6 @@ ALLOWED_HOSTS = [
     "localhost",
     "192.168.*.*",
     "192.168.1.15",
-    "lbs-project.onrender.com",
 ]
 
 
@@ -89,31 +88,22 @@ WSGI_APPLICATION = 'lbs_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
-import os
-import dj_database_url
-
-SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
-DEBUG = os.getenv("DJANGO_DEBUG", "False") == "True"
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "").split(",")
+# import os
+# import dj_database_url
 
 DATABASES = {
-    'default': dj_database_url.config(default=os.getenv("DATABASE_URL"))
+    'default': {
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'libraries_db',
+        'USER': 'postgres',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
 }
 
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-#         'NAME': 'libraries_db',
-#         'USER': 'postgres',
-#         'PASSWORD': '1234',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
-#     }
-# }
-
-# GEOS_LIBRARY_PATH = r'C:\Users\manar\AppData\Local\Programs\OSGeo4W\bin\geos_c.dll'
-# GDAL_LIBRARY_PATH = r'C:\Users\manar\AppData\Local\Programs\OSGeo4W\bin\gdal311.dll'
+GEOS_LIBRARY_PATH = r'C:\Users\manar\AppData\Local\Programs\OSGeo4W\bin\geos_c.dll'
+GDAL_LIBRARY_PATH = r'C:\Users\manar\AppData\Local\Programs\OSGeo4W\bin\gdal311.dll'
 
 
 # DATABASES = {

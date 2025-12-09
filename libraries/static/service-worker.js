@@ -1,3 +1,5 @@
+
+
 const CACHE_NAME = 'libraries-cache-v1';
 const urlsToCache = [
   '/',
@@ -9,6 +11,7 @@ const urlsToCache = [
   'https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js'
 ];
 
+// install event
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
@@ -17,6 +20,7 @@ self.addEventListener('install', (event) => {
   );
 });
 
+// fetch event 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request).then((response) => {
